@@ -8,7 +8,8 @@ public class CompareTheTriplets {
         List<Integer> results = new ArrayList<>();
         int countAlice = 0;
         int countBob = 0;
-        for (int i = 0; i < alice.size(); i++){
+        int lengthOfAlice = alice.size();
+        for (int i = 0; i < lengthOfAlice; i++){
             if (alice.get(i) > bob.get(i)){
                 countAlice++;
             }

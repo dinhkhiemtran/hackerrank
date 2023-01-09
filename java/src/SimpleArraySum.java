@@ -4,7 +4,9 @@ public class SimpleArraySum {
 
     public static int simpleArray(int[] array){
         int accumulator = 0;
-        for (int i = 0; i < array.length; i++){
+        int lengthOfArray = array.length;
+        int start = 0;
+        for (int i = start; i < lengthOfArray; i++){
             accumulator += array[i];
         }
         return accumulator;
