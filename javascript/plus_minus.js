@@ -1,8 +1,8 @@
 function plusMinus(array) {
-    var pos = 0;
-    var neg = 0;
-    var zero = 0;
-    var lengthOfArray = array.length
+    let pos = 0;
+    let neg = 0;
+    let zero = 0;
+    let lengthOfArray = array.length
     for (let i = 0; i < lengthOfArray; i++) {
         if (array[i] > 0) {
             pos++;
@@ -18,8 +18,8 @@ function plusMinus(array) {
 }
 
 function display(){
-    var array1 = [1,1,0,-1,-1];
-    var array2 = [-4, 3, -9, 0, 4, 1];
+    let array1 = [1,1,0,-1,-1];
+    let array2 = [-4, 3, -9, 0, 4, 1];
     console.log("Results-> ");
     plusMinus(array1);
     console.log("Results-> ");
